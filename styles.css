@@ -38,21 +38,20 @@ nav a {
   font-weight: bold;
 }
 
-nav a:hover{
-    cursor: pointer;
-    background-color: brown;
-    color: cornflowerblue;
+nav a:hover {
+  cursor: pointer;
+  background-color: crimson;
+  color: cornflowerblue;
 }
 #download-btn {
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 30px;
-  background:teal;
+  background: teal;
   width: 12%;
   padding-left: 14px;
   color: white;
   height: 2em;
   padding-top: 6px;
-  
 }
 
 .section1 {
@@ -61,7 +60,6 @@ nav a:hover{
   flex-direction: row;
   margin-top: 130px;
   justify-content: space-between;
-  
 }
 
 .description {
@@ -71,7 +69,6 @@ nav a:hover{
 .image {
   width: 40%;
   margin: 0 auto;
-
 }
 .pics {
   height: 32em;
@@ -96,7 +93,7 @@ nav a:hover{
   height: 3em;
   margin-right: 8px;
   width: 10em;
-  background-color:teal;
+  background-color: teal;
   font-size: 15px;
 }
 .lead {
@@ -109,8 +106,88 @@ nav a:hover{
   font-size: 25px;
 }
 
-.second-text{
-    font-family: Raleway;
-    line-height: 2;
-    color: gray;
+.second-text {
+  font-family: Raleway;
+  line-height: 2;
+  color: gray;
+}
+
+.section2 {
+  height: 20em;
+  margin-top: 15em;
+}
+
+.narration {
+  margin: 0 auto;
+  width: 75%;
+}
+.schedule {
+  font-family: Roboto;
+  font-size: 30px;
+}
+
+.txt {
+  line-height: 2;
+  font-family: Raleway;
+  color: gray;
+  font-size: 22px;
+  text-align: center;
+}
+.emoji {
+  width: 80px;
+  margin-top: 100px;
+}
+
+.section3 {
+  height: 60em;
+  margin-top: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lorem {
+  width: 30%;
+  /* background-color: red; */
+}
+
+.lorem2 {
+  width: 75%;
+}
+.money {
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 50px;
+  margin-right: 350px;
+  
+}
+
+.dollar{
+  width: 80px;
+}
+
+.dollar2{
+  width: 300px;
+  height: 250px;
+  border-radius: 20px;
+}
+
+.desc{
+  font-family: Raleway;
+  font-size: 22px;
+  width: 16em;
+  line-height: 1.6;
+}
+
+.direction{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+.direction2{
+  display: flex;
+  flex-direction: row;
+  margin-top: 480px;
+  /* justify-content: space-between; */
 }
