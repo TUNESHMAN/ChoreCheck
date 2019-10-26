@@ -159,57 +159,78 @@ nav a:hover {
   width: 80px;
   height: 50px;
   margin-right: 350px;
-  
 }
 
-.dollar{
+.dollar {
   width: 80px;
 }
 
-.dollar2{
+.dollar2 {
   width: 300px;
   height: 250px;
   border-radius: 20px;
 }
 
-.desc{
+.desc {
   font-family: Raleway;
   font-size: 22px;
   width: 16em;
   line-height: 1.6;
 }
 
-.direction{
+.direction {
   display: flex;
   flex-direction: row;
   /* justify-content: space-between; */
 }
 
-.direction2{
+.direction2 {
   display: flex;
   flex-direction: row;
   margin-top: 480px;
   /* justify-content: space-between; */
 }
 
-.section5{
+.section5 {
   margin-top: 120px;
   height: 50em;
 }
-.lorem1{
+.lorem1 {
   margin: 0 auto;
 }
 
-.global{
+.global {
   font-size: 30px;
   font-family: Roboto;
 }
 
-.picture{
+.picture {
   width: 80%;
   margin-top: 80px;
   display: flex;
   margin-left: 125px;
   border-radius: 30px;
- 
+}
+
+.footer{
+  background-color: blueviolet;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 3em 1em;
+  font-size: 0.9375rem;
+  color: white;
+}
+
+.footer > div ul {
+  list-style-type: none;
+  margin-left: -40px;
+}
+
+.footer > div ul li {
+  padding-top: 5px;
+}
+
+.copyright {
+  text-align: center;
 }
