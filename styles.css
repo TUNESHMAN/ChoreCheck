@@ -87,8 +87,8 @@ nav a:hover {
   margin-right: 8px;
   width: 20em;
   -webkit-box-shadow: none;
-	-moz-box-shadow: none;
-	box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
 }
 
 #submit {
@@ -215,7 +215,7 @@ nav a:hover {
   border-radius: 30px;
 }
 
-.footer{
+.footer {
   background-color: blueviolet;
   display: flex;
   flex-flow: row wrap;
@@ -236,4 +236,57 @@ nav a:hover {
 
 .copyright {
   text-align: center;
+}
+
+/* RESPONSIVENESS OF LANDING PAGE */
+@media (max-width: 500px) {
+  header {
+    height: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #contact {
+    margin-top: 7px;
+  }
+}
+
+@media (max-width: 500px) {
+  #home {
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 500px) {
+  nav a {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  #download-btn {
+    width: 150px;
+    align-self: center;
+    margin-top: 7px;
+  }
+}
+
+@media (max-width: 500px) {
+  #about {
+    margin-bottom: 7px;
+  }
+}
+
+@media (max-width: 500px) {
+  #pricing {
+    margin-bottom: 7px;
+  }
 }
